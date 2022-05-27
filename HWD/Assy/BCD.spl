@@ -1,0 +1,6 @@
+[Inputs]
+=Input[3:0]=
+[Outputs]
+Dot
+=Output[6:0]=
+[BiDir]

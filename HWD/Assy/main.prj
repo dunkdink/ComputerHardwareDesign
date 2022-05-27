@@ -1,0 +1,5 @@
+vhdl work "DECODE.vhd"
+vhdl work "CLKDIVIDER1000.vhd"
+vhdl work "calcuator.vhd"
+vhdl work "BCD.vhd"
+verilog work "main.vf"

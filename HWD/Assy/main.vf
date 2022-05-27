@@ -1,0 +1,200 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : main.vf
+// /___/   /\     Timestamp : 05/26/2022 23:28:47
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog D:/HWD/Assy/main.vf -w D:/HWD/Assy/main.sch
+//Design Name: main
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module FTC_HXILINX_main(Q, C, CLR, T);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              T;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+  
+   
+ 
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else if(T)
+          Q <= !Q;
+     end
+   
+endmodule
+`timescale  100 ps / 10 ps
+
+module D2_4E_HXILINX_main (D0, D1, D2, D3, A0, A1, E);
+    
+
+   output D0;
+   output D1;
+   output D2;
+   output D3;
+
+   input  A0;
+   input  A1;
+   input  E;
+  
+   reg D0;
+   reg D1;
+   reg D2;
+   reg D3;
+
+      always @ (A0 or A1 or E)
+      begin
+         if(!E)
+           {D3, D2, D1, D0} <= 4'b0000;
+        else
+        begin
+           case({A1,A0})
+             2'b00 : {D3,D2,D1,D0} <= 4'b0001;
+             2'b01 : {D3,D2,D1,D0} <= 4'b0010;
+             2'b10 : {D3,D2,D1,D0} <= 4'b0100;
+             2'b11 : {D3,D2,D1,D0} <= 4'b1000;
+          endcase
+        end
+     end 
+
+endmodule
+`timescale 100 ps / 10 ps
+
+module CB2CE_HXILINX_main(CEO, Q0, Q1, TC, C, CE, CLR);
+   
+   localparam TERMINAL_COUNT = 2'b11;
+   
+   output             CEO;
+   output             Q0;
+   output             Q1;
+   output             TC;
+
+   input 	      C;	
+   input 	      CE;	
+   input 	      CLR;	
+   
+   reg                Q0;
+   reg                Q1;
+   
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  {Q1, Q0} <= 2'b00;
+	else if (CE)
+	  {Q1,Q0} <= {Q1,Q0} + 1;
+     end
+   
+   assign CEO = TC & CE;
+   assign TC = ({Q1,Q0} == TERMINAL_COUNT);
+   
+endmodule
+`timescale 1ns / 1ps
+
+module main(A, 
+            ALU_MODE, 
+            B, 
+            CLK, 
+            COMMON0, 
+            COMMON1, 
+            COMMON2, 
+            COMMON3, 
+            DOT, 
+            O);
+
+    input [3:0] A;
+    input [3:0] ALU_MODE;
+    input [3:0] B;
+    input CLK;
+   output COMMON0;
+   output COMMON1;
+   output COMMON2;
+   output COMMON3;
+   output DOT;
+   output [6:0] O;
+   
+   wire XLXN_84;
+   wire XLXN_85;
+   wire XLXN_86;
+   wire XLXN_87;
+   wire [3:0] XLXN_134;
+   wire [11:0] XLXN_138;
+   wire XLXN_205;
+   wire XLXN_207;
+   wire XLXN_226;
+   wire XLXN_227;
+   wire XLXN_228;
+   wire XLXN_231;
+   wire XLXN_232;
+   wire XLXN_233;
+   wire XLXN_234;
+   
+   calcuator  XLXI_5 (.A(A[3:0]), 
+                     .B(B[3:0]), 
+                     .Mode(ALU_MODE[3:0]), 
+                     .O(XLXN_138[11:0]));
+   BCD  XLXI_6 (.Input(XLXN_134[3:0]), 
+               .Dot(), 
+               .Output(O[6:0]));
+   (* HU_SET = "XLXI_25_1" *) 
+   D2_4E_HXILINX_main  XLXI_25 (.A0(XLXN_227), 
+                               .A1(XLXN_228), 
+                               .E(XLXN_226), 
+                               .D0(XLXN_84), 
+                               .D1(XLXN_85), 
+                               .D2(XLXN_86), 
+                               .D3(XLXN_87));
+   (* HU_SET = "XLXI_26_0" *) 
+   CB2CE_HXILINX_main  XLXI_26 (.C(XLXN_233), 
+                               .CE(XLXN_207), 
+                               .CLR(XLXN_205), 
+                               .CEO(), 
+                               .Q0(XLXN_227), 
+                               .Q1(XLXN_228), 
+                               .TC());
+   DECODE  XLXI_64 (.Input(XLXN_138[11:0]), 
+                   .Q0(XLXN_227), 
+                   .Q1(XLXN_228), 
+                   .O(XLXN_134[3:0]));
+   GND  XLXI_67 (.G(XLXN_205));
+   CLKDIVIDER10000  XLXI_95 (.CLK(CLK), 
+                            .OCLK(XLXN_231));
+   VCC  XLXI_101 (.P(XLXN_207));
+   INV  XLXI_111 (.I(XLXN_87), 
+                 .O(COMMON3));
+   INV  XLXI_112 (.I(XLXN_85), 
+                 .O(COMMON1));
+   INV  XLXI_113 (.I(XLXN_86), 
+                 .O(COMMON2));
+   INV  XLXI_114 (.I(XLXN_84), 
+                 .O(COMMON0));
+   VCC  XLXI_115 (.P(XLXN_226));
+   AND2B1  XLXI_116 (.I0(XLXN_227), 
+                    .I1(XLXN_228), 
+                    .O(DOT));
+   (* HU_SET = "XLXI_118_2" *) 
+   FTC_HXILINX_main  XLXI_118 (.C(XLXN_231), 
+                              .CLR(XLXN_234), 
+                              .T(XLXN_232), 
+                              .Q(XLXN_233));
+   VCC  XLXI_119 (.P(XLXN_232));
+   GND  XLXI_120 (.G(XLXN_234));
+endmodule

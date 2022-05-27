@@ -1,0 +1,18 @@
+// Verilog instantiation template created from schematic D:\HWD\Assy\main.sch - Fri May 27 00:14:15 2022
+//
+// Notes: 
+// To use this template to instantiate this component,cut-and-paste and then edit
+//
+// Instantiate the UUT
+   main UUT (
+		.O(    ), 
+		.ALU_MODE(    ), 
+		.B(    ), 
+		.A(    ), 
+		.COMMON0(    ), 
+		.COMMON1(    ), 
+		.COMMON2(    ), 
+		.COMMON3(    ), 
+		.DOT(    ), 
+		.CLK(    )
+   );

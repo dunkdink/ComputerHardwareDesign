@@ -1,0 +1,396 @@
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf 
+bitgen -intstyle ise -f main.ut main.ncd 
+sch2sym -intstyle ise -family spartan6 -refsym main D:/HWD/Assy/main.sch D:/HWD/Assy/main.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog main_drc.vf -w D:/HWD/Assy/main.sch 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+sch2sym -intstyle ise -family spartan6 -refsym main D:/HWD/Assy/main.sch D:/HWD/Assy/main.sym 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+sch2verilog -intstyle ise -family spartan6 -tionly {} -tiext tfi -w D:/HWD/Assy/main.sch main.tfi 
+xst -intstyle ise -ifn "D:/HWD/Assy/main.xst" -ofn "D:/HWD/Assy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf 

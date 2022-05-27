@@ -1,0 +1,127 @@
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -prj Assy -o D:/HWD/Assy/calcuator.tfi -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work calcuator.vhd 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -lib work calcuator.vhd -prj Assy -o calcuator.spl -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calcuator.spl D:/HWD/Assy/calcuator.sym 
+vhdtdtfi -prj Assy -o D:/HWD/Assy/calcuator.tfi -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work calcuator.vhd 
+vhdtdtfi -prj Assy -o D:/HWD/Assy/calcuator.tfi -module calcuator -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work calcuator.vhd 

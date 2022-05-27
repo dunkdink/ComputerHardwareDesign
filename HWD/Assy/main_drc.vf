@@ -1,0 +1,35 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : main_drc.vf
+// /___/   /\     Timestamp : 05/26/2022 01:39:06
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan6 -verilog main_drc.vf -w D:/HWD/Assy/main.sch
+//Design Name: main
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module main(A, 
+            B, 
+            O);
+
+    input [3:0] A;
+    input [3:0] B;
+   output [3:0] O;
+   
+   
+   calcuator  XLXI_1 (.A(A[3:0]), 
+                     .B(B[3:0]), 
+                     .O(O[3:0]));
+endmodule

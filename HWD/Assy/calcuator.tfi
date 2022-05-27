@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+calcuator instance_name (
+    .A(A), 
+    .B(B), 
+    .Mode(Mode), 
+    .O(O)
+    );
+
+

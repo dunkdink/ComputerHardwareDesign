@@ -1,0 +1,7 @@
+[Inputs]
+Q0
+Q1
+=Input[11:0]=
+[Outputs]
+=O[3:0]=
+[BiDir]
